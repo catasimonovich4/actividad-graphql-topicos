@@ -1,0 +1,16 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "productos": {
+      "type": "local",
+      "command": [
+        "node",
+        "C:/Users/catas/OneDrive/Documentos/UNS/Tópicos/actividad-datos/actividad-datos/mcp-server/index.js"
+      ],
+      "environment": {
+        "GRAPHQL_URL": "https://actividad-graphql-topicos.onrender.com/graphql"
+      },
+      "enabled": true
+    }
+  }
+}

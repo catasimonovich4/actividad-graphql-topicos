@@ -1,0 +1,22 @@
+{
+  "name": "agente-auditor",
+  "version": "1.0.0",
+  "description": "Agente (Vercel AI SDK + Gemini) que audita el catálogo de productos vía MCP",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "audit": "node index.js --audit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@ai-sdk/google": "^4.0.88",
+    "@ai-sdk/mcp": "^2.0.67",
+    "ai": "^7.0.128",
+    "dotenv": "^18.0.5",
+    "zod": "^4.6.5"
+  }
+}
